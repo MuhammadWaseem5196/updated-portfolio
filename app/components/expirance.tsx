@@ -50,7 +50,7 @@ export default function Expirance(){
         
           </p>
           <ul className="list-disc pt-3 pl-4">
-        { item.rest.map((one , i)=>(<li>{one}</li>) )}
+        { item.rest.map((one , i)=>(<li key={i}>{one}</li>) )}
         
     </ul>
       </div>
